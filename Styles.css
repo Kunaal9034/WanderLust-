@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding-right: 40px;
+}
+.Logo{
+    font-size: 40px;
+    font-weight: 700;
+    color: #06458c;
+    padding-left: 40px;
+}
+.Nav-Links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.Nav-Links a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #414b55;
+    padding-bottom: 8px;
+}
+.Book{
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 22px;
+    cursor: pointer;
+}
